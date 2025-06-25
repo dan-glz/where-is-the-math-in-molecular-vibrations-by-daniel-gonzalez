@@ -7,7 +7,7 @@ $$F=-hk$$
 **Newton's Second Law**\
 $$F=ma$$
 
-but  $a = \frac{\mathrm d^2}{\mathrm d t^2}$
+but  $a = \frac{\mathrm d^2}{\mathrm d t^2}x$
 
 **The Derivation**\
 $$$$
