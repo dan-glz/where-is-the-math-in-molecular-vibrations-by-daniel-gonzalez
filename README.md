@@ -20,9 +20,10 @@ Alternatively, you can check out my video on the subject:
 
 [![personal_video](http://img.youtube.com/vi/YEDhi-Hszz4/0.jpg)](https://youtu.be/YEDhi-Hszz4)
 
+### Why Study Vibrations?
 ### Motion in Molecules
 ### Bonds as Harmonic Oscillators
-### Applying Quantum Behavior
+### Applying Quantum Behavior (WIP)
 
 ## Conclusion
 
