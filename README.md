@@ -1,4 +1,4 @@
-# Where is the math in: Molecular Vibrations?
+# Where is the Math in: Molecular Vibrations?
 ## About Me
 My name is Daniel Gonzalez. I am currently studying for a Bachelor of Science in Chemistry with minors in Mathematics and Biological Sciences. Although I initially started as a Biology student, it was during my mathematical courses and my time conducting chemistry research that I fell in love with the abstract worlds of Mathematics and Chemistry. During this time, I began taking more math courses and changed my major to Chemistry; up to now, I have covered the following courses:
 
@@ -11,4 +11,20 @@ My name is Daniel Gonzalez. I am currently studying for a Bachelor of Science in
 While also taking more theoretical courses in Chemistry, such as Descriptive Inorganic Chemistry and Spectroscopy. During these courses, I was able to find applications for the math courses I had taken, and where my interest in theoretical chemistry began. With support from Dr. Jesus Alberto Lopez Dominguez, we began to explore ideas to work on a project regarding molecular vibrations. 
 
 ## What are molecular vibrations?
+The following two videos can help give an initial or a deeper understanding of the topic, as you choose.
+
+- [Shorter Video](https://www.youtube.com/watch?v=DJI518yTr2c)
+- [More In-Depth Video](https://www.youtube.com/watch?v=Ha5yWbxOqFk&t=368s)
+
+Alternatively, you can check out my video on the subject:
+
+[![personal_video](http://img.youtube.com/vi/YEDhi-Hszz4/0.jpg)](https://youtu.be/YEDhi-Hszz4)
+
+### Motion in Molecules
+### Bonds as Harmonic Oscillators
+### Applying Quantum Behavior
+
+## Conclusion
+
+## References
 
