@@ -1,5 +1,7 @@
 # Where is the Math in: Molecular Vibrations?
 ## About Me
+![picture of my face plus a really annoying person](images/me_daniel_smol.png)
+
 My name is Daniel Gonzalez. I am currently studying for a Bachelor of Science in Chemistry with minors in Mathematics and Biological Sciences. Although I initially started as a Biology student, it was during my mathematical courses and my time conducting chemistry research that I fell in love with the abstract worlds of Mathematics and Chemistry. During this time, I began taking more math courses and changed my major to Chemistry; up to now, I have covered the following courses:
 
 - Calculus I
@@ -18,7 +20,7 @@ The following two videos can help give an initial or a deeper understanding of t
 
 Alternatively, you can check out my video on the subject, which covers the content presented in this section:
 
-[![personal_video](http://img.youtube.com/vi/YEDhi-Hszz4/0.jpg)](https://youtu.be/YEDhi-Hszz4)
+[![personal_video](http://img.youtube.com/vi/R4vVrfR122Y/0.jpg)](https://youtu.be/R4vVrfR122Y)
 
 ### Motion in Molecules
 The way atoms or molecules "move" can be simplified or expressed through three main ways:
