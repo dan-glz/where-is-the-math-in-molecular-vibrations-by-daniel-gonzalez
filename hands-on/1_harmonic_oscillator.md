@@ -46,5 +46,50 @@ At time = 0, what we will say is the following: $x(t)=X_{0}$ and $\frac{\mathrm 
 
 $$x(t)=x_{0}\cos \omega t + b\sin \omega t$$
 
+We can try and prove this by making sure our initial conditions are met.
+
+$$x(0)=x_{0}\cos \omega (0) + b\sin \omega (0)$$
+
+$$x(0)=x_{0}\cos (0) + 0 = x_{0}$$
+
+And to prove our second condition:
+
+$$\frac{\mathrm d}{\mathrm d t}x(t) = -\omega x_{0} \sin \omega t + \omega b \cos \omega t$$
+
+$$\frac{\mathrm d}{\mathrm d t}x(0) =  \omega b $$
+
+From this we can deduce that $v_{0}=\omega b$ and so $b=\frac{v_{0}}{\omega}$.
+
+So our function has been solved for our unknown and works for our initial conditions, but now needs to be tested if it works as a solution to our first equation: $\frac{\mathrm d^2}{\mathrm d t^2}x + = -\omega^2x$.
+
+$$x(t)=x_{0}\cos \omega t + \frac{v_{0}}{\omega}\sin \omega t$$
+
+$$\frac{\mathrm d}{\mathrm d t}x(t)=-\omega x_{0} \sin \omega t + v_{0} \cos \omega t$$
+
+$$\frac{\mathrm d^2}{\mathrm d t^2}x(t)=-\omega^2 x_{0} \cos \omega t - \omega v_{0} \sin \omega t$$
+
+But we can factor out $-\omega^2$.
+
+$$\frac{\mathrm d^2}{\mathrm d t^2}x(t)=-\omega^2 (x_{0} \cos \omega t + \frac{v_{0}}{\omega} \sin \omega t)$$
+
+Which is nothing more than:
+
+$$\frac{\mathrm d^2}{\mathrm d t^2}x(t)=-\omega^2 x(t)$$
+
+**Harmonic Oscillator Based on Amplitude and Phase Change**
+
+A secondary equation based on amplitude and phase change is proposed, where:
+
+$$x_{0} = A\cos \phi$$  $$\frac{v_{0}}{\omega}= -A\sin \phi$$
+
+Changing the equation to:
+
+$$x(t)= A\cos \omega t \cos \phi - A\sin \omega t \sin \phi$$
+
+Which through trigonometric identities can be simplified to:
+
+$$x(t) = A\cos (\omega t + \phi)$$
+
+
 [^1]: (Santa Cruz Institute for Particle Physics, 2009)
 [^2]: (Herman, 2021)
