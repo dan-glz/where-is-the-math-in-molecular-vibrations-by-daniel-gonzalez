@@ -78,7 +78,7 @@ but $x_{0}\cos (t) + v_{0}\sin (t) = x(t)$
 
 $$\frac{\mathrm d^2}{\mathrm d t^2}x(t) = -1(x(t))$$
 
-Hmm, not quite what we wanted but really close, all that we are missing is to multiply all of this by $\omega^2$ for this to hold true. This is a simple fix, we can place our constant $\omega$ in a place where it will not modify our initial conditions such as inside the trigonometric functions.
+Hmm, not quite what we wanted, but really close, all that we are missing is to multiply all of this by $\omega^2$ for this to hold true. This is a simple fix; we can place our constant $\omega$ in a place where it will not modify our initial conditions, such as inside the trigonometric functions.
 
 $$x(t) = x_{0}\cos (\omega t) + v_{0}\sin (\omega t)$$
 
@@ -94,7 +94,7 @@ $$\frac{\mathrm d}{\mathrm d t}x(0) = -x_{0}\omega \sin (\omega (0)) + v_{0} \om
 
 $$\frac{\mathrm d}{\mathrm d t}x(t) = 0 + v_{0} \omega (1)$$
 
-Thankfully this is an easy solution, by simply changing our function so that instead of just $v_{0}$, we can put $\frac{v_{0}}{\omega}$, quickly solving this issue.
+Thankfully, this is an easy solution, by simply changing our function so that instead of just $v_{0}$, we can put $\frac{v_{0}}{\omega}$, quickly solving this issue.
 
 $$x(t) = x_{0}\cos (\omega t) + \frac{v_{0}}{\omega}\sin (\omega t)$$
 
@@ -102,7 +102,7 @@ $$\frac{\mathrm d}{\mathrm d t}x(t) = -x_{0}\omega \sin (\omega t) + v_{0} \cos 
 
 $$\frac{\mathrm d^2}{\mathrm d t^2}x(t) = -x_{0}\omega^2 \cos (\omega t) - v_{0} \omega \sin (\omega t)$$
 
-$$\frac{\mathrm d^2}{\mathrm d t^2}x(t) = -\omega^2(x_{0}\omega^2 \cos (\omega t) + \frac{v_{0}}{\omega} \sin (\omega t))$$
+$$\frac{\mathrm d^2}{\mathrm d t^2}x(t) = -\omega^2(x_{0}\cos (\omega t) + \frac{v_{0}}{\omega} \sin (\omega t))$$
 
 $$\frac{\mathrm d^2}{\mathrm d t^2}x(t) = -\omega^2(x(t))$$
 
