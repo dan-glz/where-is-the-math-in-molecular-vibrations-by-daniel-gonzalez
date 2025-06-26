@@ -42,7 +42,7 @@ $$\frac{\mathrm d^2}{\mathrm d t^2}x + = -\omega^2x$$
 
 We now have what is considered a second-order differential equation. Moreover, the relationship we have is that of a function whose derivative is the same function times a constant. But we can also remember that harmonic oscillatory motion is periodic, following a sinusoidal pattern, so we can give an initial guess of our function based on sine and cosine functions. Before that, let us set some initial conditions.
 
-At time = 0, what we will say is the following: $x(t)=X_{0}$ and $\frac{\mathrm d}{\mathrm dt}x(t)=v_{0}$. Which is saying that at time = 0, our position will be $x_{0}$, any initial position, and our velocity will be $v_{0}$, any initial velocity. Let us say our initial guess is the following:
+At time = 0, what we will say is the following: $x(t)=x_{0}$ and $\frac{\mathrm d}{\mathrm dt}x(t)=v_{0}$. Which is saying that at time = 0, our position will be $x_{0}$, any initial position, and our velocity will be $v_{0}$, any initial velocity. Let us say our initial guess is the following:
 
 $$x(t)=x_{0}\cos \omega t + b\sin \omega t$$
 
@@ -60,7 +60,7 @@ $$\frac{\mathrm d}{\mathrm d t}x(0) =  \omega b $$
 
 From this we can deduce that $v_{0}=\omega b$ and so $b=\frac{v_{0}}{\omega}$.
 
-So our function has been solved for our unknown and works for our initial conditions, but now needs to be tested if it works as a solution to our first equation: $\frac{\mathrm d^2}{\mathrm d t^2}x + = -\omega^2x$.
+So our function has been solved for our unknown and works for our initial conditions, but now needs to be tested if it works as a solution to our first equation: $\frac{\mathrm d^2}{\mathrm d t^2}x = -\omega^2x$.
 
 $$x(t)=x_{0}\cos \omega t + \frac{v_{0}}{\omega}\sin \omega t$$
 
