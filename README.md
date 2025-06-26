@@ -34,7 +34,7 @@ where N = # of atoms in the molecule.
 
 In our three axis system, any molecule will use three degrees of freedom to move along the axis (translation) and three to rotate around an axis (rotation). This means that we have $3N-6$ remaining degrees of freedom. If our molecule is linear, meaning rotation along one axis effectively does nothing, then we have $3N-5$ remaining degrees of freedom.
 
-![linear molecule](images\linear_molecule.png) ![nonlinear molecule](images\nonlinear_molecule.png)
+![linear molecule](images/linear_molecule.png) ![nonlinear molecule](images/nonlinear_molecule.png)
 
 These remaining degrees of displacement freedom will contribute to the vibrational motion of a molecule. For non-chemists, another way to think of it is that the degrees of freedom will describe ways in which a molecule can store kinetic energy.
 
