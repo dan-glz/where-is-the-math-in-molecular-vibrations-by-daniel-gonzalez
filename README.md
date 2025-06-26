@@ -1,6 +1,7 @@
 # Where is the Math in: Molecular Vibrations?
 ## About Me
-![picture of my face plus a really annoying person](images/me_daniel.jpeg)
+![picture of my face plus a really annoying person](images/me_daniel_smol.jpeg)
+
 My name is Daniel Gonzalez. I am currently studying for a Bachelor of Science in Chemistry with minors in Mathematics and Biological Sciences. Although I initially started as a Biology student, it was during my mathematical courses and my time conducting chemistry research that I fell in love with the abstract worlds of Mathematics and Chemistry. During this time, I began taking more math courses and changed my major to Chemistry; up to now, I have covered the following courses:
 
 - Calculus I
