@@ -1,5 +1,7 @@
 # The Simple Harmonic Oscillator
-Considering an ideal, frictionless, mass-spring system
+Solution was obtained from the [Santa Cruz Institute for Particle Physics](https://scipp.ucsc.edu/~haber/ph5B/sho09.pdf)[^1].
+
+Considering an ideal, frictionless, mass-spring system. We can follow the following equations:
 
 **Hooke's Law**
 
@@ -10,6 +12,7 @@ Where:
 - $k=$ spring constant
 - $x =$ is the position of the object.
 
+![hookelaw](https://math.libretexts.org/@api/deki/files/80489/clipboard_e667a8a3589f79037977e9f590a0856b8.png?revision=1)[^2]
 
 **Angular Frequency of a Massless Spring**
 
@@ -32,3 +35,16 @@ $$\frac{m}{m}\frac{\mathrm d^2}{\mathrm d t^2}x + \frac{k}{m}x = 0$$
 but $\omega = \sqrt{\frac{k}{m}}$
 
 $$\frac{\mathrm d^2}{\mathrm d t^2}x + \omega^2x = 0$$
+
+or
+
+$$\frac{\mathrm d^2}{\mathrm d t^2}x + = -\omega^2x$$ 
+
+We now have what is considered a second-order differential equation. Moreover, the relationship we have is that of a function whose derivative is the same function times a constant. But we can also remember that harmonic oscillatory motion is periodic, following a sinusoidal pattern, so we can give an initial guess of our function based on sine and cosine functions. Before that, let us set some initial conditions.
+
+At time = 0, what we will say is the following: $x(t)=X_{0}$ and $\frac{\mathrm d}{\mathrm dt}x(t)=v_{0}$. Which is saying that at time = 0, our position will be $x_{0}$, any initial position, and our velocity will be $v_{0}$, any initial velocity. Let us say our initial guess is the following:
+
+$$x(t)=x_{0}\cos \omega t + b\sin \omega t$$
+
+[^1]: (Santa Cruz Institute for Particle Physics, 2009)
+[^2]: (Herman, 2021)
