@@ -42,39 +42,69 @@ $$\frac{\mathrm d^2}{\mathrm d t^2}x + = -\omega^2x$$
 
 We now have what is considered a second-order differential equation. Moreover, the relationship we have is that of a function whose derivative is the same function times a constant. But we can also remember that harmonic oscillatory motion is periodic, following a sinusoidal pattern, so we can give an initial guess of our function based on sine and cosine functions. Before that, let us set some initial conditions.
 
-At time = 0, what we will say is the following: $x(t)=x_{0}$ and $\frac{\mathrm d}{\mathrm dt}x(t)=v_{0}$. Which is saying that at time = 0, our position will be $x_{0}$, any initial position, and our velocity will be $v_{0}$, any initial velocity. Let us say our initial guess is the following:
+At time = 0, what we will say is the following: $x(t)=x_{0}$ and $\frac{\mathrm d}{\mathrm dt}x(t)=v_{0}$. Which is saying that at time = 0, our position will be $x_{0}$, any initial position, and our velocity will be $v_{0}$, any initial velocity. 
 
-$$x(t)=x_{0}\cos \omega t + b\sin \omega t$$
+Let's try to come up with a solution to solve our first initial condition, what we want is for our function to be $x_{0}$ or a value that maintains $x_{0}$ as itself.
 
-We can try and prove this by making sure our initial conditions are met.
+When $t = 0$:
 
-$$x(0)=x_{0}\cos \omega (0) + b\sin \omega (0)$$
+$$\cos (0) = 1$$
 
-$$x(0)=x_{0}\cos (0) + 0 = x_{0}$$
+so maybe,
 
-And to prove our second condition:
+$$x(t)= x_{0}\cos (t)$$
 
-$$\frac{\mathrm d}{\mathrm d t}x(t) = -\omega x_{0} \sin \omega t + \omega b \cos \omega t$$
+$$x(0) = x_{0}(1) = x_{0}$$
 
-$$\frac{\mathrm d}{\mathrm d t}x(0) =  \omega b $$
+Now let's try and solve for our second condition by taking this derivative.
 
-From this we can deduce that $v_{0}=\omega b$ and so $b=\frac{v_{0}}{\omega}$.
+$$\frac{\mathrm d}{\mathrm d t}x(t) = -x_{0}\sin (t)$$
 
-So our function has been solved for our unknown and works for our initial conditions, but now needs to be tested if it works as a solution to our first equation: $\frac{\mathrm d^2}{\mathrm d t^2}x = -\omega^2x$.
+If we were to substitute $t=0$ here, we would get 0, which is an assumption that we do not have an initial velocity. But that's a specific answer, we need a generalization.
 
-$$x(t)=x_{0}\cos \omega t + \frac{v_{0}}{\omega}\sin \omega t$$
+So if we know that $\cos (0) = 1$, could we do something similar to the first case? If we want to get $v_{0}$ from our first derivative, we need to add a function that when derivated turns to cosine.
 
-$$\frac{\mathrm d}{\mathrm d t}x(t)=-\omega x_{0} \sin \omega t + v_{0} \cos \omega t$$
+$$x(t) = x_{0}\cos (t) + v_{0}\sin (t)$$
 
-$$\frac{\mathrm d^2}{\mathrm d t^2}x(t)=-\omega^2 x_{0} \cos \omega t - \omega v_{0} \sin \omega t$$
+And this still holds true for our initial conditions.
 
-But we can factor out $-\omega^2$.
+A final test would be to get the second derivative to test if it complies with $\frac{\mathrm d^2}{\mathrm d t^2}x(t) + = -\omega^2x(t)$
 
-$$\frac{\mathrm d^2}{\mathrm d t^2}x(t)=-\omega^2 (x_{0} \cos \omega t + \frac{v_{0}}{\omega} \sin \omega t)$$
+$$\frac{\mathrm d^2}{\mathrm d t^2}x(t) = -x_{0}\cos (t) - v_{0}\sin (t)$$
 
-Which is nothing more than:
+$$\frac{\mathrm d^2}{\mathrm d t^2}x(t) = -1(x_{0}\cos (t) + v_{0}\sin (t))$$
 
-$$\frac{\mathrm d^2}{\mathrm d t^2}x(t)=-\omega^2 x(t)$$
+but $x_{0}\cos (t) + v_{0}\sin (t) = x(t)$
+
+$$\frac{\mathrm d^2}{\mathrm d t^2}x(t) = -1(x(t))$$
+
+Hmm, not quite what we wanted but really close, all that we are missing is to multiply all of this by $\omega^2$ for this to hold true. This is a simple fix, we can place our constant $\omega$ in a place where it will not modify our initial conditions such as inside the trigonometric functions.
+
+$$x(t) = x_{0}\cos (\omega t) + v_{0}\sin (\omega t)$$
+
+But let's test it!
+
+$$\frac{\mathrm d}{\mathrm d t}x(t) = -x_{0}\omega \sin (\omega t) + v_{0} \omega \cos (\omega t)$$
+
+$$\frac{\mathrm d^2}{\mathrm d t^2}x(t) = -x_{0}\omega^2 \cos (\omega t) - v_{0} \omega^2 \sin (\omega t)$$
+
+Which does comply with our differential equation, but if we test our initial conditions, particularly velocity, we'll see it no longer holds there.
+
+$$\frac{\mathrm d}{\mathrm d t}x(0) = -x_{0}\omega \sin (\omega (0)) + v_{0} \omega \cos (\omega (0))$$
+
+$$\frac{\mathrm d}{\mathrm d t}x(t) = 0 + v_{0} \omega (1)$$
+
+Thankfully this is an easy solution, by simply changing our function so that instead of just $v_{0}$, we can put $\frac{v_{0}}{\omega}$, quickly solving this issue.
+
+$$x(t) = x_{0}\cos (\omega t) + \frac{v_{0}}{\omega}\sin (\omega t)$$
+
+$$\frac{\mathrm d}{\mathrm d t}x(t) = -x_{0}\omega \sin (\omega t) + v_{0} \cos (\omega t)$$
+
+$$\frac{\mathrm d^2}{\mathrm d t^2}x(t) = -x_{0}\omega^2 \cos (\omega t) - v_{0} \omega \sin (\omega t)$$
+
+$$\frac{\mathrm d^2}{\mathrm d t^2}x(t) = -\omega^2(x_{0}\omega^2 \cos (\omega t) + \frac{v_{0}}{\omega} \sin (\omega t))$$
+
+$$\frac{\mathrm d^2}{\mathrm d t^2}x(t) = -\omega^2(x(t))$$
 
 **Harmonic Oscillator Based on Amplitude and Phase Change**
 
