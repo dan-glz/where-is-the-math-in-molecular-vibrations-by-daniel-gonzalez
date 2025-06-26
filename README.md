@@ -34,7 +34,7 @@ where N = # of atoms in the molecule.
 
 In our three axis system, any molecule will use three degrees of freedom to move along the axis (translation) and three to rotate around an axis (rotation). This means that we have $3N-6$ remaining degrees of freedom. If our molecule is linear, meaning rotation along one axis effectively does nothing, then we have $3N-5$ remaining degrees of freedom.
 
-![linear molecule](images/linear_molecule.png) ![nonlinear molecule](images/nonlinear_molecule.png)
+![linear molecule](images\linear_molecule.png) ![nonlinear molecule](images\nonlinear_molecule.png)
 
 These remaining degrees of displacement freedom will contribute to the vibrational motion of a molecule. For non-chemists, another way to think of it is that the degrees of freedom will describe ways in which a molecule can store kinetic energy.
 
@@ -43,7 +43,7 @@ You can describe all motion in a molecule through what are known as normal modes
 
 ### Bonds as Harmonic Oscillators
 
-We can create an initial approximation by considering bonds and atoms as objects on springs, using equations for what are known as simple harmonic oscillators.
+We can create an initial approximation by considering bonds and atoms as objects on springs, using equations for what are known as simple harmonic oscillators. The real use of these equations is to derive quantized version of them for the use in molecules.
 
 We can derive the equation for any classical simple harmonic oscillator through the use of differential equations as is shown in [Hands On: Simple Harmonic Oscillator](hands-on/1_harmonic_oscillator.md).
 
@@ -61,7 +61,42 @@ A future addition will be the derivation of the quantum harmonic oscillator usin
 ### Why Study Vibrations?
 Vibrations can tell us a lot of information about the molecule. Beginning through IR and Raman spectroscopy, which allow for molecular fingerprinting, detecting groups within a molecule by the wavelengths of light that are absorbed to excite vibrational states. Vibrations, by describing bonds, also describe the strength and type of bonds existing within molecules, which can be useful to predict reactivity. A study of thermodynamics could use molecular vibrations, as Einstein did originally.
 
-## Summary and Conclusions
+## Conclusions
+Vibrations describe the remaining displacements of a molecule after translations and rotations have been taken into account. These vibrations, first discovered through IR spectroscopy, have helped us understand vital information of molecules and bonding. Nevertheless, the complexity of quantum behavior makes any modelling of the phenomena difficult. 
+
+My approach to learning was working down from surface-level knowledge to getting into the details slowly. Most of this information was covered in previous university courses I have taken, but the fine details were obtained through external resources. As a visual learner, I benefited greatly from audiovisual content, particularly YouTube videos, to fill in gaps or create an initial understanding of the topics.
+
+Nevertheless, I have only scratched the surface of this topic. My biggest challenge was the overwhelming amount of information, finding good resources that helped ME understand, and coming to terms with the complexity of mathematics and quantum mechanics. 
+
+Still, this has not stopped my intrigue and desire to know more. With the help of my professors, particulary Dr. Lopez and Dr. Hugo Flores, I am inspired to keep working, as without their help, this spark of curiosity and development of it would not have been possible.
 
 ## References
+Atkins, P. W. (2010). Shriver & Atkins’ Inorganic Chemistry. Oxford University Press.
+- This book alongside the Descriptive Inorganic Chemistry course, were my first introductions to the concept of molecular vibrations and give explanations based more on group theory. Nevertheless, it also goes into details on degrees of freedom and normal modes of vibration.
 
+Bright Wilson, E., Decius, J. C., & Cross, P. C. (1980). Molecular Vibrations : The Theory of Infrared and Raman Vibrational Spectra. Dover.Cremer, D., & Kraka, E. (2010).
+- This book was used for the content of my spectroscopy course and goes into great detail on all the concepts covered in this project. This includes the harmonic oscillator model, normal modes of vibration, degrees of freedom, and its links to IR and Raman spectroscopy.
+
+From Molecular Vibrations to Bonding, Chemical Reactions, and Reaction Mechanism. Current Organic Chemistry, 14(15), 1524–1560. https://doi.org/10.2174/138527210793563233
+- This article will prove to be very useful when going deeper into more complicated mathematics of molecular vibrations. It serves to provide a bridge between bonding and molecular vibrations.
+
+Einstein, A. (1907). Die Plancksche Theorie der Strahlung und die Theorie der spezifischen Wärme. Annalen Der Physik, 327(1), 180–190. https://doi.org/10.1002/andp.19063270110
+- This is referenced in the directory as the first appearance of the quantum harmonic oscillator.
+
+Herman, R. (2021, November 15). 2.3: Simple Harmonic Oscillators. Mathematics LibreTexts. https://math.libretexts.org/Bookshelves/Differential_Equations/A_First_Course_in_Differential_Equations_for_Scientists_and_Engineers_(Herman)/02%3A_Second_Order_ODEs/2.03%3A_Simple_Harmonic_Oscillators
+- This provides the initial surface level understanding of Hooke's Law and the derivation of the  simple harmonic oscillator model.
+
+Kowolik, K. (2013, October 2). Normal Modes. Chemistry LibreTexts. https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Vibrational_Spectroscopy/Vibrational_Modes/Normal_Modes
+- Additional context regarding normal modes of displacement and degrees of freedom of molecules.
+
+Ogilvie, J. (1989). lnfrared Spectroscopy of Diatomic Molecules-the First Century. CHINESE JOURNAL of PHYSICS, 27(4). https://www.cecm.sfu.ca/personal/ogilvie/jfopub/89infrDi.pdf
+- While not mentioned in the repository, this was initially mentioned during the first Hands-On presentation as it provides historical context for the evolution of the creation of the concept of molecular vibrations.
+
+Quantum Sense. (2023, January 3). Ch 1: Why linear algebra? | Maths of Quantum Mechanics. Www.youtube.com. https://www.youtube.com/watch?v=3nvbBEzfmE8
+- Initial reference for a planned future derivation of the quantum harmonic oscillator. The entire series gives an initial and great understanding of the math in quantum mechanics.
+
+Santa Cruz Institute for Particle Physics. (2009). Physics 5B Solving the Simple Harmonic Oscillator. https://scipp.ucsc.edu/~haber/ph5B/sho09.pdf
+- Main reference used for the derivation of the simple harmonic oscillator equation.
+
+Simons, J. (2014, May 21). 3.2: Normal Modes of Vibration. Chemistry LibreTexts. https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Advanced_Theoretical_Chemistry_(Simons)/03%3A_Characteristics_of_Energy_Surfaces/3.02%3A_Normal_Modes_of_Vibration
+- Additional information regarding normal modes of vibration.
