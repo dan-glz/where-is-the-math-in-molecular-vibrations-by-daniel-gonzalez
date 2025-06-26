@@ -18,7 +18,7 @@ The following two videos can help give an initial or a deeper understanding of t
 
 Alternatively, you can check out my video on the subject, which covers the content presented in this section:
 
-[![personal_video](http://img.youtube.com/vi/YR4vVrfR122Y/0.jpg)](https://youtu.be/R4vVrfR122Y)
+[![personal_video](http://img.youtube.com/vi/R4vVrfR122Y/0.jpg)](https://youtu.be/R4vVrfR122Y)
 
 ### Motion in Molecules
 The way atoms or molecules "move" can be simplified or expressed through three main ways:
